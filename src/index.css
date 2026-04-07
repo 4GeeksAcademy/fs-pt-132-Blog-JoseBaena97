@@ -21,10 +21,13 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  background-color: var(--bg-color);
+   background-color: #87CEEB;
   color: var(--text-main);
   overflow-x: hidden;
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background-image: url('https://thesimpsonsapi.com/clouds-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   min-height: 100vh;
 }
 
